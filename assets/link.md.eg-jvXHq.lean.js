@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,V as r}from"./chunks/framework.i4DFJMIw.js";const f=JSON.parse('{"title":"相关文档","description":"","frontmatter":{},"headers":[],"relativePath":"link.md","filePath":"link.md","lastUpdated":null}'),a={name:"link.md"},l=r("",2),i=[l];function n(s,h,_,c,k,w){return t(),o("div",null,i)}const b=e(a,[["render",n]]);export{f as __pageData,b as default};

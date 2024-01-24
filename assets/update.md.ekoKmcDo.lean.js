@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,V as t}from"./chunks/framework.i4DFJMIw.js";const g=JSON.parse('{"title":"版本更新","description":"","frontmatter":{},"headers":[],"relativePath":"update.md","filePath":"update.md","lastUpdated":null}'),i={name:"update.md"},l=t("",26),r=[l];function c(d,s,n,h,u,p){return o(),a("div",null,r)}const b=e(i,[["render",c]]);export{g as __pageData,b as default};
