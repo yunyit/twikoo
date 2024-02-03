@@ -9,10 +9,10 @@
 [![](https://img.shields.io/npm/l/twikoo)](./LICENSE)
 
 
-A **simple**, **safe**, **free** comment system.  
+A **simple**, **safe**, **free** comment system for static sites.  
 [简体中文](./README.md) | **English**  
 
-**This document is for American English.**
+**This document is in American English.**
 
 ## Features
 
@@ -49,7 +49,7 @@ A **simple**, **safe**, **free** comment system.
 * Anti XSS Attack.
 * Support for limiting the maximum number of comments per IP per 10 minutes.
 
-### notification
+### Notification
 
 * E-mail（Visitors and Blogger）
 * Wechat（only Blogger, [Server酱](https://sc.ftqq.com/3.version)）
