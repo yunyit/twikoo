@@ -27,31 +27,31 @@
 A **simple**, **safe**, **free** comment system.  
 [简体中文](/intro) | **English**  
 
-**This document is for American English. This document has many bugs.**
+**This document is for American English. This document may have typos please be aware.**
 
 ## Features
 
 
 ### Simple
 
-* Free Build.（Using CloudBase / Vercel / self-hosted as the commenting backend）
+* Free to Build.（Using CloudBase / Vercel / self-hosted as the commenting backend）
 * Simple Deployment.（Support CloudBase / Vercel one-click deployment）
 
 ### Easy to use
 
-* Support reply, like.
-* No additional adaptations, support with light theme and dark theme use.
-* Support API , batch get article comment count, latest comments.
-* Visitors entering QQ number in the nickname field will automatically complete the QQ nickname and QQ email.
-* Visitors fill in the digital QQ e-mail, will use the QQ avatar as the comment avatar.
-* Support the comment to paste pictures.（Can be disabled）
-* Support inserting pictures.（Can be disabled）
-* Support 7bu image bed, Tencent CloudBase image bed.
-* Support inserting emoji.（Can be disabled）
-* Support Ctrl + Enter reply.
-* Comments are saved in draft in real time and will not be lost when refreshed.
-* [Support Katex formulas.](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E5%90%AF%E7%94%A8-katex-%E6%94%AF%E6%8C%81)
-* Support for code highlighting by language.
+* Support replies and likes
+* No additional adaptation required, supports use with light themes and dark themes
+* Supports API calls to obtain the number of article comments and latest comments in batches
+* When visitors enter their QQ number in the nickname field, the QQ nickname and QQ email address will be automatically completed.
+* When visitors fill in their QQ email address in digits, their QQ avatar will be used as the comment avatar.
+* Supports pasting pictures in the comment box (can be disabled)
+* Support inserting pictures (can be disabled)
+* Supports [Qubu](https://7bu.top/) and other image hosting services
+* Supports inserting emoticons (can be disabled)
+* Support Ctrl + Enter quick reply
+* Inputs for the comment box will be saved as drafts automatically and will remain after refreshing the page
+* [Support Katex formula](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E5%90%AF%E7%94%A8-katex-%E6 %94%AF%E6%8C%81)
+* Support code highlighting by languages
 
 ### Security
 
