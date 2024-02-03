@@ -39,19 +39,18 @@ A **simple**, **safe**, **free** comment system.
 
 ### Easy to use
 
-* Support replies and likes
-* No additional adaptation required, supports use with light themes and dark themes
-* Supports API calls to obtain the number of article comments and latest comments in batches
-* When visitors enter their QQ number in the nickname field, the QQ nickname and QQ email address will be automatically completed.
-* When visitors fill in their QQ email address in digits, their QQ avatar will be used as the comment avatar.
-* Supports pasting pictures in the comment box (can be disabled)
-* Support inserting pictures (can be disabled)
-* Supports [Qubu](https://7bu.top/) and other image hosting services
-* Supports inserting emoticons (can be disabled)
-* Support Ctrl + Enter quick reply
-* Inputs for the comment box will be saved as drafts automatically and will remain after refreshing the page
-* [Support Katex formula](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E5%90%AF%E7%94%A8-katex-%E6 %94%AF%E6%8C%81)
-* Support code highlighting by languages
+* Support replies and likes.
+* No additional adaptation required, supports use with light themes and dark themes.
+* Supports API calls to obtain the number of article comments and latest comments in batches.
+* Auto fetch the avatar of email address filled in.
+* Supports pasting pictures in the comment box (can be disabled).
+* Support inserting pictures (can be disabled).
+* Supports [Qubu](https://7bu.top/) and other image hosting services.
+* Supports inserting emoticons (can be disabled).
+* Support Ctrl + Enter quick reply.
+* Inputs for the comment box will be saved as drafts automatically and will remain after refreshing the page.
+* [Support Katex formula](https://twikoo.js.org/faq.html#%E5%A6%82%E4%BD%95%E5%90%AF%E7%94%A8-katex-%E6 %94%AF%E6%8C%81).
+* Support code highlighting by languages.
 
 ### Security
 
