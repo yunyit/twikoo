@@ -117,9 +117,9 @@ Icon design：[Maemo Lee](https://www.maemo.cc)
 
 <!-- ## Donate -->
 
-## Release notes & plans
+## Release notes 
 
-[Update logs](https://github.com/twikoojs/twikoo/releases) & [Development Plan](https://github.com/twikoojs/twikoo/projects/2)
+[Update logs](https://github.com/twikoojs/twikoo/releases) 
 
 ##  Development
 
