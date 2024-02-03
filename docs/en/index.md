@@ -24,21 +24,21 @@ hero:
 
 features:
   - icon: 🚀
-    title: 简单
-    details: 免费搭建，简单部署
+    title: Simple
+    details: Free to build, easy to deploy.
   - icon: 😃
-    title: 易用
-    details: 功能丰富，兼容性强
+    title: Easy to use
+    details: Diverse functions，strong compatibility.
   - icon: 🛡️
-    title: 安全
-    details: 隐私安全，内容安全
+    title: Safe
+    details: Privacy and content security.
   - icon: ⏰
-    title: 即时
-    details: 邮件提醒，即时消息推送
+    title: In-time
+    details: Email and SNS reminders.
   - icon: 🌈
-    title: 个性
-    details: 自定义背景图，博主标识
+    title: Personalizaion
+    details: Personalized background images and avartars.
   - icon: ⚙️
-    title: 便捷管理
-    details: 内嵌式管理面板，通过密码登录
+    title: Handy management
+    details: Inline admin panel with password logins.
 ---
