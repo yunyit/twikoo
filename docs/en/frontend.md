@@ -1,26 +1,26 @@
-# Front-end Deployment
+# Frontend Deployment
 
-## In Hexo 
+## Deploy in Hexo 
 
-### 在 [Hexo Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) 主题使用
+### [Hexo Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) theme
 
-请参考 [Butterfly 安裝文檔(四) 主題配置-2](https://butterfly.js.org/posts/ceeb73f/#%E8%A9%95%E8%AB%96) 进行配置
+Please refer to [Butterfly 安裝文檔(四) 主題配置-2](https://butterfly.js.org/posts/ceeb73f/#%E8%A9%95%E8%AB%96) for configuration.
 
-### 在 [Hexo Keep](https://github.com/XPoet/hexo-theme-keep) 主题使用
+### [Hexo Keep](https://github.com/XPoet/hexo-theme-keep) theme
 
-请参考 [hexo-theme-keep/_config.yml](https://github.com/XPoet/hexo-theme-keep/blob/master/_config.yml) 进行配置
+Please refer to [hexo-theme-keep/_config.yml](https://github.com/XPoet/hexo-theme-keep/blob/master/_config.yml) for configuration.
 
-### 在 [Hexo Volantis](https://github.com/volantis-x/hexo-theme-volantis) 主题使用
+### [Hexo Volantis](https://github.com/volantis-x/hexo-theme-volantis) theme
 
-请参考 [hexo-theme-volantis/_config.yml](https://github.com/volantis-x/hexo-theme-volantis/blob/master/_config.yml) 进行配置
+Please refer to [hexo-theme-volantis/_config.yml](https://github.com/volantis-x/hexo-theme-volantis/blob/master/_config.yml) for configuration.
 
-### 在 [Hexo Ayer](https://github.com/Shen-Yu/hexo-theme-ayer) 主题使用
+### [Hexo Ayer](https://github.com/Shen-Yu/hexo-theme-ayer) theme
 
-请参考 [hexo-theme-ayer/_config.yml](https://github.com/Shen-Yu/hexo-theme-ayer/blob/master/_config.yml) 进行配置
+Please refer to [hexo-theme-ayer/_config.yml](https://github.com/Shen-Yu/hexo-theme-ayer/blob/master/_config.yml) for configuration.
 
-### 在 [Hexo NexT](https://github.com/next-theme/hexo-theme-next) 主题使用
+### [Hexo NexT](https://github.com/next-theme/hexo-theme-next) theme
 
-**暂不支持 NexT 8 以下的版本**，请先升级到 NexT 8。然后在 Hexo 项目根目录执行
+**Versions below NexT 8 are not supported for now**, please upgrade to NexT 8 before executing the following in the Hexo project's root directory.
 
 ``` sh
 # For NexT version >= 8.0.0 && < 8.4.0
@@ -29,7 +29,7 @@ npm install hexo-next-twikoo@1.0.0
 npm install hexo-next-twikoo@1.0.3
 ```
 
-然后在配置中添加
+Then add the following to config file:
 
 ``` yml
 twikoo:
@@ -39,43 +39,43 @@ twikoo:
   # region: ap-guangzhou # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
 ```
 
-### 在 [Hexo Matery](https://github.com/blinkfox/hexo-theme-matery) 主题使用
+### [Hexo Matery](https://github.com/blinkfox/hexo-theme-matery) theme
 
-请参考 [hexo-theme-matery/_config.yml](https://github.com/blinkfox/hexo-theme-matery/blob/develop/_config.yml) 进行配置
+Please refer to [hexo-theme-matery/_config.yml](https://github.com/blinkfox/hexo-theme-matery/blob/develop/_config.yml) for configuration.
 
-### 在 [Hexo Icarus](https://github.com/ppoffice/hexo-theme-icarus) 主题使用
+### [Hexo Icarus](https://github.com/ppoffice/hexo-theme-icarus) theme
 
-请参考 [基于腾讯云，给你的 Icarus 博客配上 Twikoo 评论系统](https://www.anzifan.com/post/icarus_to_candy_2/) by 异次元de机智君💯
+Please refer to [基于腾讯云，给你的 Icarus 博客配上 Twikoo 评论系统](https://www.anzifan.com/post/icarus_to_candy_2/).
 
-### 在 [Hexo MengD(萌典)](https://github.com/lete114/hexo-theme-MengD) 主题使用
+### [Hexo MengD(萌典)](https://github.com/lete114/hexo-theme-MengD) theme
 
-请参考 [hexo-theme-MengD/_config.yml](https://github.com/lete114/hexo-theme-MengD/blob/master/_config.yml) 进行配置
+Please refer to [hexo-theme-MengD/_config.yml](https://github.com/lete114/hexo-theme-MengD/blob/master/_config.yml) for configuration.
 
-### 在 [hexo-theme-fluid](https://github.com/fluid-dev/hexo-theme-fluid) 主题使用
+### [hexo-theme-fluid](https://github.com/fluid-dev/hexo-theme-fluid) theme
 
-请参考 [配置指南-评论](https://hexo.fluid-dev.com/docs/guide/#%E8%AF%84%E8%AE%BA) 进行配置
+Please refer to [配置指南-评论](https://hexo.fluid-dev.com/docs/guide/#%E8%AF%84%E8%AE%BA) for configuration.
 
-### 在 [hexo-theme-cards](https://github.com/ChrAlpha/hexo-theme-cards) 主题使用
+### [hexo-theme-cards](https://github.com/ChrAlpha/hexo-theme-cards) theme
 
-请参考 [hexo-theme-cards/_config.yml](https://github.com/ChrAlpha/hexo-theme-cards/blob/master/_config.yml) 进行配置
+Please refer to [hexo-theme-cards/_config.yml](https://github.com/ChrAlpha/hexo-theme-cards/blob/master/_config.yml) for configuration.
 
-### 在 [maupassant-hexo](https://github.com/tufu9441/maupassant-hexo) 主题使用
+### [maupassant-hexo](https://github.com/tufu9441/maupassant-hexo) theme
 
-请参考 [maupassant-hexo/_config.yml](https://github.com/tufu9441/maupassant-hexo/blob/master/_config.yml) 进行配置
+Please refer to [maupassant-hexo/_config.yml](https://github.com/tufu9441/maupassant-hexo/blob/master/_config.yml) for configuration.
 
-### 在 [hexo-theme-redefine](https://github.com/EvanNotFound/hexo-theme-redefine) 主题使用
+### [hexo-theme-redefine](https://github.com/EvanNotFound/hexo-theme-redefine) theme
 
-请参考 [Redefine 官方文档 #comment](https://redefine-docs.ohevan.com/docs/configuration-guide/comment#twikoo) 进行配置
+Please refer to [Redefine 官方文档 #comment](https://redefine-docs.ohevan.com/docs/configuration-guide/comment#twikoo) for configuration.
 
-## In Hugo 
+## Deploy in Hugo 
 
-### 在 [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack) 主题使用
+### [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack) theme
 
-请参考 [Comments | Stack](https://stack.jimmycai.com/config/comments) 和 [hugo-theme-stack/config.yaml#L83](https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config.yaml#L83) 进行配置
+Please refer to [Comments | Stack](https://stack.jimmycai.com/config/comments) and [hugo-theme-stack/config.yaml#L83](https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config.yaml#L83) for configuration.
 
-### 在 [FixIt](https://github.com/hugo-fixit/FixIt) 主题使用
+### [FixIt](https://github.com/hugo-fixit/FixIt) theme
 
-请参考 [入门篇 - FixIt #主题配置](https://fixit.lruihao.cn/zh-cn/documentation/basics/#theme-configuration) 和 [hugo-fixit/FixIt/config.toml#L613-L624](https://github.com/hugo-fixit/FixIt/blob/8bb2a35dcc4c54fc3e0fb968df063d6be1daabf3/config.toml#L613-L624) 进行配置
+Please refer to [入门篇 - FixIt #主题配置](https://fixit.lruihao.cn/zh-cn/documentation/basics/#theme-configuration) and [hugo-fixit/FixIt/config.toml#L613-L624](https://github.com/hugo-fixit/FixIt/blob/8bb2a35dcc4c54fc3e0fb968df063d6be1daabf3/config.toml#L613-L624) for configuration.
 
 ## 通过 CDN 引入
 
