@@ -8,7 +8,7 @@ Visitors can also comment by entering their digital QQ email address and using t
 
 ## How do I change or reset the administrator password?
 
-In [Tecent Cloud Console](https://console.cloud.tencent.com/tcb/database/collection/config), edit the configuration, delete the `config.ADMIN_PASS `configuration item, and then go to the Twikoo administration panel to reset the password.
+In [Tecent Cloud Console](https://console.cloud.tencent.com/tcb/database/collection/config), edit the configuration, delete the `config.ADMIN_PASS` configuration item, and then go to the Twikoo administration panel to reset the password.
 
 ## How to get the private key file of the admin panel?
 
