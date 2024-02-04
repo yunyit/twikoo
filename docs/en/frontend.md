@@ -77,10 +77,10 @@ Please refer to [Comments | Stack](https://stack.jimmycai.com/config/comments) a
 
 Please refer to [入门篇 - FixIt #主题配置](https://fixit.lruihao.cn/zh-cn/documentation/basics/#theme-configuration) and [hugo-fixit/FixIt/config.toml#L613-L624](https://github.com/hugo-fixit/FixIt/blob/8bb2a35dcc4c54fc3e0fb968df063d6be1daabf3/config.toml#L613-L624) for configuration.
 
-## 通过 CDN 引入
+## Load from CDN
 
 ::: tip Tip
-如果您使用的博客主题不支持 Twikoo，并且您不知道如何引入 Twikoo，您可以[在 Github 提交适配请求](https://github.com/twikoojs/twikoo/issues/new)
+If your blog theme doesn't support Twikoo and you are unsure how to load Twikoo, you can [submit an adaptation request on Github](https://github.com/twikoojs/twikoo/issues/new)
 :::
 
 ``` html
@@ -88,7 +88,7 @@ Please refer to [入门篇 - FixIt #主题配置](https://fixit.lruihao.cn/zh-cn
 <script src="https://cdn.staticfile.org/twikoo/1.6.31/twikoo.all.min.js"></script>
 <script>
 twikoo.init({
-  envId: '您的环境id', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  envId: 'your envID', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
   el: '#tcomment', // 容器元素
   // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
   // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
@@ -97,7 +97,7 @@ twikoo.init({
 </script>
 ```
 
-> 建议使用 CDN 引入 Twikoo 的用户在链接地址上锁定版本，以免将来 Twikoo 升级时受到非兼容性更新的影响。
+> It is recommended that users who use a CDN to load Twikoo lock the version on the linked address, to avoid future non-compatible updates from Twikoo.
 
 ### 更换 CDN 镜像
 
