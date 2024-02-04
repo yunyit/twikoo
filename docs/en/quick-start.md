@@ -7,5 +7,5 @@ Twikoo includes two parts: Serverless Cloud Function and Frontend. To integrate 
 - If you have deployed an older version of Twikoo, please refer to [Version Update](https://twikoo.js.org/en/update.html) to upgrade the cloud function and front-end version.
 
 ::: tip Tip
-The English document is being edited. For further information, please refer to the [Chinese document](/quick-start).
+The English document is in progress. For further information, please refer to the [Chinese document](/quick-start).
 :::
