@@ -99,23 +99,15 @@ twikoo.init({
 
 > It is recommended that users who use a CDN to load Twikoo lock the version on the linked address, to avoid future non-compatible updates from Twikoo.
 
-### 更换 CDN 镜像
+### Changing CDN mirrors
 
-如果遇到默认 CDN 加载速度缓慢，可更换其他 CDN 镜像。以下为可供选择的公共 CDN，其中一些 CDN 可能需要数天时间同步最新版本：
+If you are experiencing slow loading speeds with the default CDN, you can change to a different CDN mirror. The following public CDNs are available, some of which may take a few days to synchronize with the latest version:
 
 * `https://cdn.staticfile.org/twikoo/1.6.31/twikoo.all.min.js`
 * `https://lib.baomitu.com/twikoo/1.6.31/twikoo.all.min.js`
 * `https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.31/twikoo.all.min.js`
 * `https://cdn.jsdelivr.net/npm/twikoo@1.6.31/dist/twikoo.all.min.js`
 
-## 开启管理面板（腾讯云环境）
+## Open the admin panel
 
-1. 进入[环境-登录授权](https://console.cloud.tencent.com/tcb/env/login)，点击“自定义登录”右边的“私钥下载”，下载私钥文件
-2. 用文本编辑器打开私钥文件，复制全部内容
-3. 点击评论窗口的“小齿轮”图标，粘贴私钥文件内容，并设置管理员密码
-
-配置好登录私钥之后无需留存私钥文件，请勿再次下载登录私钥，否则会导致之前配置的登录私钥失效。
-
-## 开启管理面板（非腾讯云环境）
-
-点击评论窗口的“小齿轮”图标，设置管理员密码
+Click the "small gear" icon in the comment window to set the administrator password.
