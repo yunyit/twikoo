@@ -11,25 +11,25 @@
 | [私有部署 (Docker)](#私有部署-docker) | ★★★☆☆ | Suitable for users who have a server and need to apply for an HTTPS certificate by themselves. |
 ## Vercel deployment
 
-::: warning 注意
-Vercel 部署的环境需配合 1.4.0 以上版本的 twikoo.js 使用
+::: warning Note
+Vercel should be deployed with twikoo.js version 1.4.0 or above.
 
-默认域名 `*.vercel.app` 在中国大陆访问速度较慢甚至无法访问，绑定自己的域名可以提高访问速度
-:::
+The default domain name `*.vercel.app` is slow or impossible to access in mainland China, so bind your own domain name to improve access speed.
+::.
 
-[查看视频教程](https://www.bilibili.com/video/BV1Fh411e7ZH)
+[Video Tutorial](https://www.bilibili.com/video/BV1Fh411e7ZH)
 
-1. 申请 [MongoDB](https://www.mongodb.com/cloud/atlas/register) 账号
-2. 创建免费 MongoDB 数据库，区域推荐选择 `AWS / N. Virginia (us-east-1)`
-3. 在 Database Access 页面点击 Add New Database User 创建数据库用户，Authentication Method 选 Password，在 Password Authentication 下设置数据库用户名和密码，用户名和密码可包含数字和大小写字母，请勿包含特殊符号。点击 Database User Privileges 下方的 Add Built In Role，Select Role 选择 Atlas Admin，最后点击 Add User
+1. Apply for a [MongoDB](https://www.mongodb.com/cloud/atlas/register) account.
+2. Create a free MongoDB database, and choose `AWS / N. Virginia (us-east-1)` as the recommended region.
+3. In the 'Database Access' page, click 'Add New Database User' to create a database user; select 'Password' for 'Authentication Method'; in 'Password Authentication', set the database username and password, and set the database user name and password in 'Password Authentication'; the user name and password can contain numbers and upper and lower case letters, please do not include special symbols. Click 'Add Built In Role' under 'Database User Privileges', select 'Atlas Admin' for 'Select Role', and click 'Add User'.
 
 ![](./static/mongodb-1.png)
 
-4. 在 Network Access 页面点击 Add IP Address，Access List Entry 输入 `0.0.0.0/0`（允许所有 IP 地址的连接），点击 Confirm
+4. On the 'Network Access' page, click 'Add IP Address', enter `0.0.0.0/0` for 'Access List Entry' (to allow connections from all IP addresses), and click 'Confirm'.
 
 ![](./static/mongodb-2.png)
 
-5. 在 Database 页面点击 Connect，连接方式选择 Drivers，并记录数据库连接字符串，请将连接字符串中的 `<username>:<password>` 修改为刚刚创建的数据库 `用户名:密码`
+5. On the `Database' page, click `Connect', select `Drivers' as the connection method, and record the database connection string; please change `<username>:<password>` in the connection string to `username:password` of the database you just created.
 
 ![](./static/mongodb-3.png)
 
