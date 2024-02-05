@@ -33,26 +33,26 @@ The default domain name `*.vercel.app` is slow or impossible to access in mainla
 
 ![](./static/mongodb-3.png)
 
-6. 申请 [Vercel](https://vercel.com/signup) 账号
-7. 点击以下按钮将 Twikoo 一键部署到 Vercel<br>
+6. Apply for an [Vercel](https://vercel.com/signup) account.
+7. Click the button below to deploy Twikoo to Vercel<br>
 
 [![Deploy](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/twikoojs/twikoo/tree/main/src/server/vercel-min)
 
-8. 进入 Settings - Environment Variables，添加环境变量 `MONGODB_URI`，值为前面记录的数据库连接字符串
-9. 进入 Settings - Deployment Protection，设置 Vercel Authentication 为 Disabled，并 Save
+8. Enter 'Settings - Environment Variables' and add the environment variable `MONGODB_URI` with the value which database connection string recorded previously.
+9. Go to 'Settings - Deployment Protection', set 'Vercel Authentication' to 'Disabled', and 'Save'.
 
 ![](./static/vercel-1.png)
 
-10. 进入 Deployments , 然后在任意一项后面点击更多（三个点） , 然后点击 Redeploy , 最后点击下面的 Redeploy
-11. 进入 Overview，点击 Domains 下方的链接，如果环境配置正确，可以看到 “Twikoo 云函数运行正常” 的提示
-12. Vercel Domains（包含 `https://` 前缀，例如 `https://xxx.vercel.app`）即为您的环境 id
+10. Go to 'Deployments', then click More (three dots) after any item, then click 'Redeploy', and finally click 'Redeploy' below.
+11. Enter Overview and click the link under Domains. If the environment is configured correctly, you can see the prompt 'Twikoo cloud function is running normally'.
+12. 'Vercel Domains', including the `https://` prefix such as `https://xxx.vercel.app`, is your environment id.
 
 ## Railway deployment
 
-::: warning 注意
-Railway 部署的环境需配合 1.4.0 以上版本的 twikoo.js 使用
+::: warning Note
+Railway deployment needs twikoo.js version 1.4.0 or above.
 
-请一定要创建 MongoDB，不创建 MongoDB 也能正常使用，但重新部署后数据会丢失！
+Please be sure to create MongoDB, as it can be used normally without creating MongoDB but the data will be all gone after redeployment!
 :::
 
 1. 在 [Railway](https://railway.app/dashboard) 申请并登录账号，点击 New Project - Provision MongoDB，名称随意
