@@ -55,28 +55,28 @@ Railway deployment needs twikoo.js version 1.4.0 or above.
 Please be sure to create MongoDB, as it can be used normally without creating MongoDB but the data will be all gone after redeployment!
 :::
 
-1. 在 [Railway](https://railway.app/dashboard) 申请并登录账号，点击 New Project - Provision MongoDB，名称随意
-2. 打开 [twikoojs/twikoo-zeabur](https://github.com/twikoojs/twikoo-zeabur) 点击 fork 将仓库 fork 到自己的账号下
-3. 回到 Railway 点击 New - GitHub Repo - Configure GitHub App - 授权 GitHub - 选择刚才 fork 的仓库，等待部署完成
-4. 点开环境卡片 - Variables - New Variable，左边输入 `PORT` 右边输入 `8080` 然后点 Add
-5. 同样地，添加 MongoDB 相关环境变量 - New Variable - Add Reference - MONGO* - Add，重复步骤以添加 `MONGOHOST`、`MONGOPASSWORD`、`MONGOPORT`、`MONGOUSER` 和 `MONGO_URL` 环境变量。
-6. 点开环境卡片 - Settings - Environment - Domains，绑定一个域名（例如 `mytwikoo.up.railway.app`）
-7. 到博客配置文件中配置 envId 为 `https://` 加域名（例如 `https://mytwikoo.up.railway.app`）
+1. Apply for and log in to the account at [Railway](https://railway.app/dashboard), click 'New Project' - 'Provision MongoDB', and name it as you like.
+2. Open [twikoojs/twikoo-zeabur](https://github.com/twikoojs/twikoo-zeabur) and click 'fork' to fork the warehouse to your own account
+3. Go back to Railway and click 'New' - 'GitHub Repo' - 'Configure GitHub App' - 'Authorize GitHub' - Select the repository you just forked and wait for the deployment to complete.
+4. Click on the 'Environment Card' - 'Variables' - 'New Variable', enter `PORT` on the left and `8080` on the right and click 'Add'.
+5. Similarly, add MongoDB related environment variables - New Variable - Add Reference - MONGO* - Add, repeat the steps to add `MONGOHOST`, `MONGOPASSWORD`, `MONGOPORT`, `MONGOUSER` and `MONGO_URL` environment variables.
+6. Click on the Environment card - Settings - Environment - Domains and bind a domain name (for example `mytwikoo.up.railway.app`).
+7. Configure the envId in the blog configuration file to `https://` and add the domain name (for example `https://mytwikoo.up.railway.app`).
 
 ## Zeabur deployment
 
-::: warning 注意
-Zeabur 部署的环境需配合 1.4.0 以上版本的 twikoo.js 使用
+1. Apply for and log in to [Zeabur](https://dash.zeabur.com), click Deploy new service - Deploy other services - Deploy MongoDB, name it as you like
+2. Open [twikoojs/twikoo-zeabur](https://github.com/twikoojs/twikoo-zeabur) and click fork to fork the warehouse to your own account
+3. Go back to Zeabur and click Deploy New Service - Deploy your source code - Authorize GitHub - Select the repository you just forked, with any name
+   > _No need to configure database connection string! Zeabur has been automatically configured_
+4. After deployment, click the environment card - Settings - Domain name and bind a domain name (for example `mytwikoo.zeabur.app`)
+5. Configure the envId in the blog configuration file to `https://` and add the domain name (for example `https://mytwikoo.zeabur.app`)
 
-请一定要创建 MongoDB，不创建 MongoDB 也能正常使用，但重新部署后数据会丢失！
+::: warning Note
+Zeabur deployment needs twikoo.js version 1.4.0 or above.
+
+Please be sure to create MongoDB, as it can be used normally without creating MongoDB but the data will be all gone after redeployment!
 :::
-
-1. 在 [Zeabur](https://dash.zeabur.com) 申请并登录账号，点击部署新服务 - 部署其他服务 - 部署 MongoDB，名称随意
-2. 打开 [twikoojs/twikoo-zeabur](https://github.com/twikoojs/twikoo-zeabur) 点击 fork 将仓库 fork 到自己的账号下
-3. 回到 Zeabur 点击部署新服务 - 部署你的源代码 - 授权 GitHub - 选择刚才 fork 的仓库，名称随意
-  > _无需配置数据库连接字符串！ Zeabur 已自动配置_
-4. 部署好后点开环境卡片 - 设置 - 域名，绑定一个域名（例如 `mytwikoo.zeabur.app`）
-5. 到博客配置文件中配置 envId 为 `https://` 加域名（例如 `https://mytwikoo.zeabur.app`）
 
 ## Netlify deployment 
 
